@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1 style="background-color:red;"><font size="6" face="Times New Roman" color="white">BOOK MY MOVIES!!</font></h1>
+    
     <label><b>Search</b></label>
 
     <input type="text" placeholder="Search for movies,events,play,sports and activities"> 
@@ -17,6 +18,16 @@
         <option>Mumbai</option>
         <option>Delhi</option>
     </select>
+
+    <label for="browser"><b>Choose Your Movie</b></label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Leo">
+            <option value="Dhuruvanechathiram">
+                <option value="Captain Miller">
+                    <option value="Indian 2">
+                        <option value="Salar">
+    </datalist>
 
     <input align="center" type="button" value="Sign in" onclick="alert('Sign in Successfully')"><br>
     
@@ -43,8 +54,9 @@
     </div> 
     </figure>
 
-    <input align="center" type="button" value="Sign in" onclick="alert('Sign in Successfully')">
+    <input type="button" value="Book Tickets" onclick="alert('Your Tickets Booked Successfully')">
         
+    
 
 </body>
 </html>
